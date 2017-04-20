@@ -1,0 +1,26 @@
+{
+  "name": "schedule-crawler",
+  "version": "1.0.0",
+  "description": "crawl schedule data",
+  "main": "starter.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/git.williamjin017/schedule-crawler.git"
+  },
+  "keywords": [
+    "crawl"
+  ],
+  "author": "william",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/git.williamjin017/schedule-crawler/issues"
+  },
+  "homepage": "https://github.com/git.williamjin017/schedule-crawler#readme",
+  "dependencies": {
+    "chromedriver": "^2.12.0",
+    "selenium-webdriver": "^2.44.0"
+  }
+}

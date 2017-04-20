@@ -1,0 +1,299 @@
+{
+  "id": 42193,
+  "number": "001",
+  "component": {
+    "code": "LEC",
+    "description": "Lecture"
+  },
+  "displayName": "2017 Fall COMPSCI C8 001 LEC 001",
+  "startDate": "2017-08-23",
+  "endDate": "2017-12-08",
+  "association": {
+    "primary": true,
+    "primaryAssociatedComponent": {
+      "code": "LEC",
+      "description": "Lecture"
+    },
+    "primaryAssociatedSectionId": 42193
+  },
+  "enrollmentStatus": {
+    "status": {
+      "code": "O",
+      "description": "Open"
+    },
+    "enrolledCount": 0,
+    "waitlistedCount": 0,
+    "minEnroll": 0,
+    "maxEnroll": 732,
+    "maxWaitlist": 500,
+    "instructorAddConsentRequired": false,
+    "instructorDropConsentRequired": false,
+    "seatReservations": [
+      {
+        "number": 1,
+        "requirementGroup": {
+          "code": "000014",
+          "description": "Open to students with 1-4 Terms in Attendance Only"
+        },
+        "fromDate": "2017-04-17",
+        "maxEnroll": 732,
+        "enrolledCount": 0
+      }
+    ]
+  },
+  "printInScheduleOfClasses": true,
+  "addConsentRequired": {
+    "code": "N",
+    "description": "No Special Consent Required"
+  },
+  "dropConsentRequired": {
+    "code": "N",
+    "description": "No Special Consent Required"
+  },
+  "graded": true,
+  "feesExist": false,
+  "roomShare": true,
+  "sectionAttributes": [
+    {
+      "attribute": {
+        "code": "VUOC",
+        "description": "VCREDIT",
+        "formalDescription": "Variable Units of Credit"
+      },
+      "value": {
+        "code": "F",
+        "description": "Fixed",
+        "formalDescription": "Fixed Unit 1 Value"
+      }
+    },
+    {
+      "attribute": {
+        "code": "TIE",
+        "description": "Instr Type",
+        "formalDescription": "Instructional Activity Types"
+      },
+      "value": {
+        "code": "LECS",
+        "description": "Lecture\/Supplementary Activity",
+        "formalDescription": "Transmitting the Knowledge Base"
+      }
+    }
+  ],
+  "roomCharacteristics": [
+    {
+      "code": "27",
+      "description": "Board-Front 150plus sq ft",
+      "quantity": 1
+    }
+  ],
+  "meetings": [
+    {
+      "number": 1,
+      "meetsDays": "MoWeFr",
+      "meetsMonday": true,
+      "meetsTuesday": false,
+      "meetsWednesday": true,
+      "meetsThursday": false,
+      "meetsFriday": true,
+      "meetsSaturday": false,
+      "meetsSunday": false,
+      "startTime": "10:00:00",
+      "endTime": "10:59:00",
+      "location": {
+        "code": "WHLR150"
+      },
+      "building": [],
+      "assignedInstructors": [
+        {
+          "assignmentNumber": 1,
+          "instructor": {
+            "identifiers": [
+              {
+                "type": "campus-uid",
+                "id": "63279",
+                "disclose": true
+              }
+            ],
+            "names": [
+              {
+                "type": {
+                  "code": "PRF",
+                  "description": "Preferred"
+                },
+                "familyName": "Wagner",
+                "givenName": "David",
+                "formattedName": "David  Wagner",
+                "disclose": false,
+                "uiControl": {
+                  "code": "U",
+                  "description": "Edit - No Delete"
+                },
+                "fromDate": "1996-05-19"
+              },
+              {
+                "type": {
+                  "code": "PRI",
+                  "description": "Primary"
+                },
+                "familyName": "Wagner",
+                "givenName": "David",
+                "formattedName": "David  Wagner",
+                "disclose": false,
+                "uiControl": {
+                  "code": "D",
+                  "description": "Display Only"
+                },
+                "fromDate": "1996-05-19"
+              }
+            ]
+          },
+          "role": {
+            "code": "PI",
+            "description": "1-TIC",
+            "formalDescription": "Teaching and In Charge"
+          },
+          "printInScheduleOfClasses": true,
+          "gradeRosterAccess": {
+            "code": "A",
+            "description": "Approve",
+            "formalDescription": "Approve"
+          }
+        },
+        {
+          "assignmentNumber": 2,
+          "instructor": {
+            "identifiers": [
+              {
+                "type": "campus-uid",
+                "id": "260296",
+                "disclose": true
+              }
+            ],
+            "names": [
+              {
+                "type": {
+                  "code": "PRF",
+                  "description": "Preferred"
+                },
+                "familyName": "DeNero",
+                "givenName": "John",
+                "formattedName": "John S. DeNero",
+                "disclose": false,
+                "uiControl": {
+                  "code": "U",
+                  "description": "Edit - No Delete"
+                },
+                "fromDate": "2014-09-09"
+              },
+              {
+                "type": {
+                  "code": "PRI",
+                  "description": "Primary"
+                },
+                "familyName": "DeNero",
+                "givenName": "John",
+                "formattedName": "John S. DeNero",
+                "disclose": false,
+                "uiControl": {
+                  "code": "D",
+                  "description": "Display Only"
+                },
+                "fromDate": "2014-09-09"
+              }
+            ]
+          },
+          "role": {
+            "code": "PI",
+            "description": "1-TIC",
+            "formalDescription": "Teaching and In Charge"
+          },
+          "printInScheduleOfClasses": true,
+          "gradeRosterAccess": []
+        }
+      ],
+      "startDate": "2017-08-23",
+      "endDate": "2017-12-08",
+      "meetingTopic": []
+    }
+  ],
+  "academicOrganization": {
+    "code": "ELENG",
+    "description": "Electrical Eng & Computer Sci",
+    "formalDescription": "Electrical Engineering and Computer Sciences"
+  },
+  "academicGroup": {
+    "code": "COE",
+    "description": "COE",
+    "formalDescription": "College of Engineering"
+  },
+  "class": {
+    "course": {
+      "identifiers": [
+        {
+          "type": "cs-course-id",
+          "id": "124567"
+        }
+      ],
+      "subjectArea": {
+        "code": "COMPSCI",
+        "description": "Computer Science"
+      },
+      "catalogNumber": {
+        "prefix": "C",
+        "number": "8",
+        "formatted": "C8"
+      },
+      "displayName": "COMPSCI C8",
+      "title": "Foundations of Data Science",
+      "transcriptTitle": "FOUNDATION DATA SCI"
+    },
+    "offeringNumber": 1,
+    "session": {
+      "term": {
+        "id": "2178",
+        "name": "2017 Fall"
+      },
+      "id": "1",
+      "name": "Regular Academic Session"
+    },
+    "number": "001",
+    "displayName": "2017 Fall COMPSCI C8 001",
+    "allowedUnits": {
+      "minimum": 4,
+      "maximum": 4,
+      "forAcademicProgress": 4,
+      "forFinancialAid": 4
+    },
+    "status": []
+  },
+  "attributes": {
+    "VUOC": [
+      {
+        "attribute": {
+          "code": "VUOC",
+          "description": "VCREDIT",
+          "formalDescription": "Variable Units of Credit"
+        },
+        "value": {
+          "code": "F",
+          "description": "Fixed",
+          "formalDescription": "Fixed Unit 1 Value"
+        }
+      }
+    ],
+    "TIE": [
+      {
+        "attribute": {
+          "code": "TIE",
+          "description": "Instr Type",
+          "formalDescription": "Instructional Activity Types"
+        },
+        "value": {
+          "code": "LECS",
+          "description": "Lecture\/Supplementary Activity",
+          "formalDescription": "Transmitting the Knowledge Base"
+        }
+      }
+    ]
+  }
+}
